@@ -91,32 +91,5 @@
 
 ---
 
-<!--
-=== SETUP GUIDE ===
-
-1. SNAKE ANIMATION (requires GitHub Actions):
-   - Create file: .github/workflows/snake.yml
-   - Content:
-     on:
-       schedule:
-         - cron: "0 */12 * * *"
-       workflow_dispatch:
-     jobs:
-       snake:
-         runs-on: ubuntu-latest
-         steps:
-           - uses: Platane/snk@v3
-             with:
-               github_user_name: ${{ github.repository_owner }}
-               outputs: dist/github-contribution-grid-snake.svg
-           - uses: crazy-max/ghaction-github-pages@v3
-             with:
-               target_branch: output
-               build_dir: dist
-             env:
-               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-2. Replace ALL instances of doan-duc with your actual GitHub username.
-
 3. All other animations (typing, stats, streak, trophy) work automatically — no setup needed.
 -->
