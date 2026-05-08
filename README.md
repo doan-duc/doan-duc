@@ -90,6 +90,3 @@
 </div>
 
 ---
-
-3. All other animations (typing, stats, streak, trophy) work automatically — no setup needed.
--->
