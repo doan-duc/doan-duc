@@ -1,7 +1,7 @@
 <!-- Header typing animation -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=3000&pause=1000&color=02B3F7&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Doan+Sinh+Duc+%F0%9F%A4%9D;%F0%9F%A7%A0+AI+Research+Enthusiast;%F0%9F%8E%93+Embedded+Systems+%26+IoT+Student;Relentless+practice+builds+perfection)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=3000&pause=1000&color=02B3F7&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Doan+Sinh+Duc+%F0%9F%A4%9D;%F0%9F%A7%A0+AI+Research+Interests;%F0%9F%8E%93+Embedded+Systems+%26+IoT+Student;Relentless+practice+builds+perfection)](https://git.io/typing-svg)
 </div>
 
 ## 👤 About Me
