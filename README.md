@@ -86,7 +86,7 @@
 
 <!-- Footer wave animation -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Thanks%20for%20viewing%20my%20profile!-nl-Let's%20connect%20and%20build%20something%20awesome%20together%20🤝&fontSize=30&animation=twinkling&fontAlign=50&descAlignY=0&descAlign=0&section=footer&fontColor=FFFFFF&fontAlignY=69"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Thanks%20for%20viewing%20my%20profile!-nl-Let's%20connect%20and%20research%20something%20awesome%20together%20🤝&fontSize=30&animation=twinkling&fontAlign=50&descAlignY=0&descAlign=0&section=footer&fontColor=FFFFFF&fontAlignY=69"/>
 </div>
 
 ---
