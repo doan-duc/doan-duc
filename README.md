@@ -5,61 +5,74 @@
 </div>
 
 ## 👤 About Me
-
+I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University of Science and Technology (HUST)**, conducting research at the **EDABK Laboratory**. My work lies at the intersection of **Neuromorphic Computing**, **Deep Learning on Biomedical Signals**, and **Efficient Edge AI**.
 - 🎓 **B.S. in Smart Embedded Systems and IoT (Expected 2027)** @ Hanoi University of Science and Technology (HUST)
 - 🔬 **Lab Member** @ EDABK Laboratory, HUST
-- 👨‍🏫 **Teaching Assistant** @ Matsuo-Iwasawa Laboratory, The University of Tokyo
+- 👨‍🏫 **Teaching Assistant** @ Global Consumer Intelligence Course, Matsuo-Iwasawa Laboratory, The University of Tokyo
 - 💼 **Artificial Intelligence Intern** @ Viettel Telecom & HANET Technology
 - 🏆 **2nd Place Winner & Top 100 Global Teams** — HSIL Hackathon 2026 (Harvard Health Systems Innovation Lab)
 - 🎖️ **Outstanding Student** — Global Consumer Intelligence Course 2025 (Matsuo-Iwasawa Lab, UTokyo)
 
 ---
 
-## 🔭 Current Research Focus
+## 🔭 Research Interests & Focus
 
-- **Emerging AI Architectures & Biosignals:** Researching and implementing Spiking Neural Networks (SNN) and Kolmogorov-Arnold Networks (KAN) alongside optimization techniques (MLP NAS) for processing biological signals especially ECG and PPG.
+- **Emerging AI Architectures for Biosignals:** Training and deploying Spiking Neural Networks (SNN) and Kolmogorov-Arnold Networks (KAN) alongside neural architecture search (MLP NAS) on biological signals, specifically ECG and PPG.
 - **Efficient Edge AI:** Developing, quantizing, and deploying real-time Computer Vision systems to balance extreme efficiency with high accuracy.
 
----
-
-## 🛠️ Skills & Tools
-
-<!-- Animated skill badges -->
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Ultralytics](https://img.shields.io/badge/Ultralytics-000000?style=for-the-badge&logo=ultralytics&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-</div>
 
 ---
 
 ## 🚀 Featured Projects
 
-<!-- Project cards with trophies/icons -->
+### 🫀 Neuromorphic Ear-to-Chest ECG Reconstruction with Perceptual Loss
+*Deep Learning | Spiking Neural Networks | Bio-signal Modeling | Model Quantization*
+*   **Concept:** Reconstructing clinical-grade chest ECG signals from noisy ear-worn wearable sensors to enable continuous cardiovascular monitoring.
+*   **Methodology:** Developed a quantized SNN autoencoder using 4-bit Learnable Step Size Quantization (LSQ) Conv1D layers and MultiSpike activations. Built a composite loss function incorporating MSE, ECGFounder-based perceptual loss, and Pearson correlation.
+*   **Results:** Reconstructed signals reached a **0.8508 Pearson correlation** on unseen test subjects, rising to **0.9065** with personalized decoder tuning. The network operates on only **13,684 parameters** and **13.44M MACs** per 2-second window, making it highly viable for neuromorphic edge hardware.
+*   [[Code/Repository](https://github.com/doan-duc/ecg_perceptual)]
 
+### 📹 Edge AI Product Recognition via 16-Stream RTSP
+*Computer Vision | NVIDIA DeepStream SDK| TensorRT | Jetson Nano*
+*   **Concept:** High-throughput real-time product tracking at the edge using resource-constrained devices.
+*   **Methodology:** Built a parallelized DeepStream-based video pipeline processing 16 concurrent RTSP streams on a single Jetson Nano. Employed post-training FP16 quantization via TensorRT and knowledge distillation on YOLOv8n.
+*   **Results:** Sustained robust detection accuracy and real-time processing constraints at target distances up to 10 meters.
+*   [[Code/Repository](https://github.com/doan-duc/DeepStream-YOLOv8-Jetson-Nano-16RTSP)]
 
-### 📷 Edge AI Product Recognition via 16-Stream RTSP *(Oct 2025 – Dec 2025)*
-> **Role: Project Leader** | YOLOv8 | DeepStream | TensorRT | Jetson Nano
-- Architected a high-performance parallel processing pipeline to handle 16 simultaneous RTSP camera streams on a single NVIDIA Jetson Nano.
-- Applied TensorRT Quantization, Knowledge Distillation, and YOLOv8n fine-tuning to achieve real-time inference with high accuracy.
-
-### 🏭 Multi-tier Electronic Component Packaging AI Control System *(Jan 2026 – Feb 2026)*
-> **Role: Project Leader** | YOLOv8
-- Developed a YOLOv8n-based object detection model to identify and track 11 classes of components within a 2-tier packaging process.
-- Engineered real-time "Anchor-based Mapping" and automated quality control logic to detect missing components and process deviations.
+### 📦 Multi-tier Electronic Component Packaging AI Control System
+*Real-time Object Tracking | YOLOv8 | Anchor Mapping | Industry 4.0*
+*   **Concept:** Automating quality assurance in electronics manufacturing lines.
+*   **Methodology:** Deployed a custom-trained YOLOv8n detector tracking 11 component classes across a 2-tier packaging setup. Implemented a proprietary "Anchor-based Mapping" algorithm to synchronize state machines across 4 camera feeds.
+*   **Results:** Achieved low-latency error alerts for missing components, incorrect packaging order, or positioning errors.
+*   [[Code/Repository](https://github.com/doan-duc/OSCO-Object-Scanning-and-Checklist-Optimization)]
 
 ---
-<!-- Contribution graph - works automatically, no setup needed -->
+
+## 🛠️ Research & Engineering Toolkit
+
+<table>
+  <tr>
+    <td><b>Theoretical & Research Areas</b></td>
+    <td>Spiking Neural Networks (SNN), Neural Architecture Search (NAS), Deep Learning on Biosignals</td>
+  </tr>
+  <tr>
+    <td><b>Frameworks & Tools</b></td>
+    <td>PyTorch, TensorFlow, Keras, SpikingJelly, OpenCV, Ultralytics, Git, Docker</td>
+  </tr>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>Python, C, C++ </td>
+  </tr>
+  <tr>
+    <td><b>Hardware & Deployment</b></td>
+    <td>NVIDIA Jetson Nano, TensorRT, NVIDIA DeepStream, GStreamer, ESP32</td>
+  </tr>
+</table>
+
+---
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=doan-duc&theme=react-dark&hide_border=true&area=true" width="100%"/>
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -70,10 +83,7 @@
 
 ---
 
-
-
-## 📫 Contact
-
+## 📫 Contact & Links
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-doansinhduc%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:doansinhduc@gmail.com)
@@ -89,4 +99,3 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Thanks%20for%20viewing%20my%20profile!-nl-Let's%20connect%20and%20research%20something%20awesome%20together%20🤝&fontSize=30&animation=twinkling&fontAlign=50&descAlignY=0&descAlign=0&section=footer&fontColor=FFFFFF&fontAlignY=69"/>
 </div>
 
----
