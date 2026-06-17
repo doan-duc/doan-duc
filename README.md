@@ -86,7 +86,7 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 ## 📫 Contact & Links
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-doansinhduc%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:doansinhduc@gmail.com)
+[![Email](https://img.shields.io/static/v1?label=Email&message=doansinhduc%40gmail.com&color=D14836&style=for-the-badge&logo=gmail&logoColor=white)](mailto:doansinhduc@gmail.com)
 [![HUST](https://img.shields.io/badge/HUST-Student-005BAC?style=for-the-badge)](https://www.hust.edu.vn)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/doanduc2312)
 
