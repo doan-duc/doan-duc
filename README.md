@@ -88,9 +88,9 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 
 [![Gmail](gmail.svg)](mailto:doansinhduc@gmail.com)
 [![HUST Email](hust_email.svg)](mailto:duc.ds234000@sis.hust.edu.vn)
-[![HUST](https://img.shields.io/badge/HUST-Student-005BAC?style=for-the-badge)](https://www.hust.edu.vn)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/doanduc2312)
-[![Profile Views](https://komarev.com/ghpvc/?username=doan-duc&style=for-the-badge&color=0077b5)](https://github.com/doan-duc)
+[![HUST](https://img.shields.io/badge/HUST-Student-CE1628?style=for-the-badge)](https://www.hust.edu.vn)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/doanduc2312)
+[![Profile Views](https://komarev.com/ghpvc/?username=doan-duc&style=for-the-badge&color=8A2BE2)](https://github.com/doan-duc)
 
 </div>
 
