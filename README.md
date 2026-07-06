@@ -78,8 +78,8 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 <div align="center">
 
 <a href="https://github.com/doan-duc">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=doan-duc&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=02B3F7&icon_color=02B3F7&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="Doan Duc's GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=doan-duc&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=02B3F7&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=doan-duc&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=02B3F7&icon_color=02B3F7&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="Doan Duc's GitHub Stats"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=doan-duc&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=02B3F7&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 </a>
 
 <br/>
@@ -88,7 +88,7 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 
 <!-- WakaTime Card (uncomment after setting up WakaTime: https://wakatime.com)
 <br/>
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=doan-duc&theme=react&hide_border=true&bg_color=0D1117&title_color=02B3F7&text_color=c9d1d9&layout=compact" alt="WakaTime Stats"/>
+<img src="https://github-stats-extended.vercel.app/api/wakatime?username=doan-duc&theme=react&hide_border=true&bg_color=0D1117&title_color=02B3F7&text_color=c9d1d9&layout=compact" alt="WakaTime Stats"/>
 -->
 
 </div>
