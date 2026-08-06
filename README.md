@@ -25,12 +25,13 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 
 ## 🚀 Featured Projects
 
-### 🫀 Neuromorphic Ear-to-Chest ECG Reconstruction with Perceptual Loss
-*Deep Learning | Spiking Neural Networks | Bio-signal Modeling | Model Quantization*
-*   **Concept:** Reconstructing clinical-grade chest ECG signals from noisy ear-worn wearable sensors to enable continuous cardiovascular monitoring.
-*   **Methodology:** Developed a quantized SNN autoencoder using 4-bit Learnable Step Size Quantization (LSQ) Conv1D layers and MultiSpike activations. Built a composite loss function incorporating MSE, ECGFounder-based perceptual loss, and Pearson correlation.
-*   **Results:** Reconstructed signals reached a **0.8508 Pearson correlation** on unseen test subjects, rising to **0.9065** with personalized decoder tuning. The network operates on only **13,684 parameters** and **13.44M MACs** per 2-second window, making it highly viable for neuromorphic edge hardware.
-*   [[Code/Repository](https://github.com/doan-duc/ecg_perceptual)]
+### 🫀 Ear-to-Chest ECG Reconstruction with 4-bit SDCAE
+*Deep Learning | Spiking Neural Networks | ECG Reconstruction | 4-bit Quantization*
+*   **Concept:** An offline research benchmark for reconstructing chest-reference ECG morphology from single-ear ECG.
+*   **Methodology:** Built a compact 1D SDCAE with 4-bit LSQ-quantized convolution layers and integer multi-level spike activations, evaluated subject-independently with leave-one-subject-out cross-validation.
+*   **Results:** Across 12 private LOSO folds, SDCAE achieved **0.873 +/- 0.039 PQRST-Pearson**, **0.862 full-window correlation**, and **0.257 MSE**. Its 23,140 parameters have an **11.3 KB theoretical packed 4-bit weight footprint**, matching the strongest full-precision baseline in aggregate.
+*   **Scope:** The paired dataset remains private. This is not a diagnostic system, medical device, or demonstrated real-time deployment.
+*   [[Code/Repository](https://github.com/doan-duc/ear-to-chest-ecg-reconstruction)]
 
 ### 📹 Edge AI Product Recognition via 16-Stream RTSP
 *Computer Vision | NVIDIA DeepStream SDK| TensorRT | Jetson Nano*
