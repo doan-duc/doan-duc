@@ -8,7 +8,6 @@
 I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University of Science and Technology (HUST)**, conducting research at the **EDABK Laboratory**. My work lies at the intersection of **Neuromorphic Computing**, **Deep Learning on Biomedical Signals**, and **Efficient Edge AI**.
 - 🎓 **B.S. in Smart Embedded Systems and IoT (Expected 2027)** @ Hanoi University of Science and Technology (HUST)
 - 🔬 **Lab Member** @ EDABK Laboratory, HUST
-- 👨‍🏫 **Teaching Assistant** @ Global Consumer Intelligence Course, Matsuo-Iwasawa Laboratory, The University of Tokyo
 - 💼 **Artificial Intelligence Intern** @ Viettel Telecom & HANET Technology
 - 🏆 **2nd Place Winner & Top 100 Global Teams** — HSIL Hackathon 2026 (Harvard Health Systems Innovation Lab)
 - 🎖️ **Outstanding Student** — Global Consumer Intelligence Course 2025 (Matsuo-Iwasawa Lab, UTokyo)
@@ -28,7 +27,7 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 ### 🫀 Ear-to-Chest ECG Reconstruction with 4-bit SDCAE
 *Deep Learning | Spiking Neural Networks | ECG Reconstruction | 4-bit Quantization*
 *   **Concept:** An offline research benchmark for reconstructing chest-reference ECG morphology from single-ear ECG.
-*   **Methodology:** Built a compact 1D SDCAE with 4-bit LSQ-quantized convolution layers and integer multi-level spike activations, evaluated subject-independently with leave-one-subject-out cross-validation.
+*   **Methodology:** Built a compact 1D Spiking Denoising Convolutional Autoencoder (SDCAE) with 4-bit LSQ-quantized convolution layers and integer multi-level spike activations, evaluated subject-independently with leave-one-subject-out cross-validation.
 *   **Results:** Across 12 private LOSO folds, SDCAE achieved **0.873 +/- 0.039 PQRST-Pearson**, **0.862 full-window correlation**, and **0.257 MSE**. Its 23,140 parameters have an **11.3 KB theoretical packed 4-bit weight footprint**, matching the strongest full-precision baseline in aggregate.
 *   **Scope:** The paired dataset remains private. This is not a diagnostic system, medical device, or demonstrated real-time deployment.
 *   [[Code/Repository](https://github.com/doan-duc/ear-to-chest-ecg-reconstruction)]
@@ -58,7 +57,7 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
   </tr>
   <tr>
     <td><b>Frameworks & Tools</b></td>
-    <td>PyTorch, TensorFlow, Keras, SpikingJelly, OpenCV, Ultralytics, Git, Docker</td>
+    <td>PyTorch, TensorFlow, Keras, OpenCV, Ultralytics, Git, Docker</td>
   </tr>
   <tr>
     <td><b>Languages</b></td>
