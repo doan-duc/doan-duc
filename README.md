@@ -5,7 +5,10 @@
 </div>
 
 ## 👤 About Me
+<!-- ECG/SNN-specific positioning is intentionally hidden from the rendered profile.
 I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University of Science and Technology (HUST)**, conducting research at the **EDABK Laboratory**. My work lies at the intersection of **Neuromorphic Computing**, **Deep Learning on Biomedical Signals**, and **Efficient Edge AI**.
+-->
+I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University of Science and Technology (HUST)**, conducting research at the **EDABK Laboratory** and building **Efficient Edge AI** systems.
 - 🎓 **B.S. in Smart Embedded Systems and IoT (Expected 2027)** @ Hanoi University of Science and Technology (HUST)
 - 🔬 **Lab Member** @ EDABK Laboratory, HUST
 - 💼 **Artificial Intelligence Intern** @ Viettel Telecom & HANET Technology
@@ -16,7 +19,9 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 
 ## 🔭 Research Interests & Focus
 
+<!-- ECG/SNN research focus intentionally hidden.
 - **Emerging AI Architectures for Biosignals:** Training and deploying Spiking Neural Networks (SNN) and Kolmogorov-Arnold Networks (KAN) alongside neural architecture search (MLP NAS) on biological signals, specifically ECG and PPG.
+-->
 - **Efficient Edge AI:** Developing, quantizing, and deploying real-time Computer Vision systems to balance extreme efficiency with high accuracy.
 
 
@@ -24,6 +29,7 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 
 ## 🚀 Featured Projects
 
+<!-- ECG/SNN featured project intentionally hidden.
 ### 🫀 Ear-to-Chest ECG Reconstruction with 4-bit SDCAE
 *Deep Learning | Spiking Neural Networks | ECG Reconstruction | 4-bit Quantization*
 *   **Concept:** An offline research benchmark for reconstructing chest-reference ECG morphology from single-ear ECG.
@@ -31,6 +37,7 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 *   **Results:** Across 12 private LOSO folds, SDCAE achieved **0.873 +/- 0.039 PQRST-Pearson**, **0.862 full-window correlation**, and **0.257 MSE**. Its 23,140 parameters have an **11.3 KB theoretical packed 4-bit weight footprint**, matching the strongest full-precision baseline in aggregate.
 *   **Scope:** The paired dataset remains private. This is not a diagnostic system, medical device, or demonstrated real-time deployment.
 *   [[Code/Repository](https://github.com/doan-duc/ear-to-chest-ecg-reconstruction)]
+-->
 
 ### 📹 Edge AI Product Recognition via 16-Stream RTSP
 *Computer Vision | NVIDIA DeepStream SDK| TensorRT | Jetson Nano*
@@ -51,10 +58,12 @@ I am a Smart Embedded Systems & IoT undergraduate student at **Hanoi University 
 ## 🛠️ Research & Engineering Toolkit
 
 <table>
+  <!-- ECG/SNN toolkit row intentionally hidden.
   <tr>
     <td><b>Theoretical & Research Areas</b></td>
     <td>Spiking Neural Networks (SNN), Neural Architecture Search (NAS), Deep Learning on Biosignals</td>
   </tr>
+  -->
   <tr>
     <td><b>Frameworks & Tools</b></td>
     <td>PyTorch, TensorFlow, Keras, OpenCV, Ultralytics, Git, Docker</td>
